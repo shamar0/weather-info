@@ -54,7 +54,7 @@ import { red } from '@mui/material/colors';
             <TextField id="city-name" label="City name" variant="outlined" value={city} onChange={handleChange} required/> <br /><br />
             <Button variant="contained" type='submit'>Search</Button> <br /><br />
             </form>
-            {error && <h3 style={{color:"red"}}>no such place exist</h3>}
+            {error && <h3 style={{color:"red"}}><i>No such place exist!!!</i></h3>}
 
            
         </div>
